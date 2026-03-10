@@ -1,0 +1,33 @@
+name: Repo QA
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Syntax check helper scripts
+        run: |
+          node --check ./scripts/lib/github-project.mjs
+          node --check ./scripts/get_project_schema.mjs
+          node --check ./scripts/export_project_items.mjs
+          node --check ./scripts/create_draft_issue.mjs
+          node --check ./scripts/add_project_item.mjs
+          node --check ./scripts/set_project_field.mjs
+          node --check ./scripts/install_codex_skill_link.mjs
+          node --check ./scripts/verify_repo_surfaces.mjs
+
+      - name: Verify repository surfaces
+        run: node ./scripts/verify_repo_surfaces.mjs
