@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="40" fill="#F8FAFC"/>
+  <rect x="54" y="54" width="1092" height="522" rx="34" fill="#0F172A"/>
+  <rect x="104" y="114" width="148" height="148" rx="32" fill="#E0F2FE"/>
+  <rect x="133" y="148" width="90" height="18" rx="7" fill="#38BDF8"/>
+  <rect x="133" y="183" width="52" height="14" rx="6" fill="#CBD5E1"/>
+  <circle cx="207" cy="207" r="22" fill="#22C55E"/>
+  <path d="M197 207L204 214L218 200" stroke="#0F172A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="286" y="176" fill="#E2E8F0" font-family="Arial, sans-serif" font-size="58" font-weight="700">GitHub Project Skill</text>
+  <text x="286" y="236" fill="#38BDF8" font-family="Arial, sans-serif" font-size="28" font-weight="700">Codex automation for GitHub Projects</text>
+  <text x="104" y="334" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="29">
+    <tspan x="104" dy="0">Inspect schemas, export items, add draft tasks, and update fields</tspan>
+    <tspan x="104" dy="42">with gh CLI plus portable Node helpers and bilingual docs.</tspan>
+  </text>
+  <rect x="104" y="410" width="240" height="54" rx="18" fill="#1D4ED8"/>
+  <text x="143" y="445" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="26" font-weight="700">Portable workflow</text>
+  <rect x="366" y="410" width="210" height="54" rx="18" fill="#0EA5E9"/>
+  <text x="403" y="445" fill="#0F172A" font-family="Arial, sans-serif" font-size="26" font-weight="700">Docs + CI</text>
+  <rect x="802" y="136" width="244" height="74" rx="22" fill="#DBEAFE"/>
+  <text x="854" y="182" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Schema</text>
+  <rect x="802" y="238" width="244" height="74" rx="22" fill="#DCFCE7"/>
+  <text x="841" y="284" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Draft tasks</text>
+  <rect x="802" y="340" width="244" height="74" rx="22" fill="#FDE68A"/>
+  <text x="853" y="386" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Field edit</text>
+  <rect x="802" y="442" width="244" height="74" rx="22" fill="#FBCFE8"/>
+  <text x="844" y="488" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Export JSON</text>
+</svg>

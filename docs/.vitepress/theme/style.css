@@ -1,0 +1,52 @@
+:root {
+  --vp-c-brand-1: #0f172a;
+  --vp-c-brand-2: #1e293b;
+  --vp-c-brand-3: #334155;
+  --vp-c-brand-soft: rgba(56, 189, 248, 0.18);
+  --vp-c-accent: #38bdf8;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #0f172a 0%, #0ea5e9 60%, #22c55e 100%);
+  --vp-home-hero-image-background-image:
+    radial-gradient(circle at 30% 30%, rgba(56, 189, 248, 0.24), transparent 45%),
+    radial-gradient(circle at 70% 25%, rgba(34, 197, 94, 0.22), transparent 42%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(224, 242, 254, 0.75));
+  --vp-home-hero-image-filter: drop-shadow(0 24px 60px rgba(15, 23, 42, 0.18));
+}
+
+.VPHomeHero .container {
+  position: relative;
+}
+
+.VPHomeHero .main {
+  max-width: 640px;
+}
+
+.VPHomeHero .tagline {
+  max-width: 42rem;
+  color: #334155;
+}
+
+.VPHomeHero .image {
+  border-radius: 32px;
+  padding: 1rem;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.9), rgba(224, 242, 254, 0.7)),
+    radial-gradient(circle at top right, rgba(34, 197, 94, 0.22), transparent 42%);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+}
+
+.VPFeature {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(248, 250, 252, 0.96)),
+    linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(34, 197, 94, 0.08));
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+}
+
+.VPFeature .title {
+  color: #0f172a;
+}
+
+.vp-doc h2 {
+  margin-top: 2.4rem;
+}
