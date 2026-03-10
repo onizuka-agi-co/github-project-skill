@@ -1,0 +1,7 @@
+interface:
+  display_name: "GitHub Project"
+  short_description: "Manage GitHub Projects with gh CLI, including fields, draft issues, items, and status updates."
+  default_prompt: "Use $github-project to inspect or update a GitHub Project with gh CLI."
+
+policy:
+  allow_implicit_invocation: true
